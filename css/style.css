@@ -1,32 +1,34 @@
 header{
-  padding-top: 5%;
+	padding-top: 5%;
 }
 /*barra divisara*/
-hr{
-  border-top: 4px solid #C0C0BC !important;
+hr {
+	border-top: 4px solid #C0C0BC !important;
 }
-.img{
+.img {
 	text-align: center;
 }
-.img-ancho{
+.img-ancho {
 	width: 100%;
 }
-.logo{
+.logo {
 	width: 30%;
 }
 /*algo de images secundarias*/
-.img-complemento{
+.img-complemento {
 	width: 100%;
 	height: 162px;
 	padding-top: -2px;
 }
 
-.img-complemento:hover{
+.img-complemento:hover {
 	width: 110%;
 }
 /* centrado en el modo movil*/
 @media (max-width: 400px) {
-  .movil-header,.text-right,.center-responsive{
-    text-align: center !important;
-  }
+	.movil-header,
+	.text-right,
+	.center-responsive {
+		text-align: center !important;
+	}
 }
